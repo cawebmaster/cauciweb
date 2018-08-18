@@ -1,0 +1,98 @@
+.carousel{
+	margin: 0;
+	width: 100%;
+	padding: 0;
+}
+
+.carousel-inner{
+	width: 100%;
+	max-height: 1125px;
+
+	/*max-height: 950px;
+	This value may be useful for fitting the whole index picture on the screen.
+	*/
+}
+
+.carousel-inner .item img{
+	width: 100%;
+	/*
+	max-height: 925px;
+	This value may be useful for fitting the whole index picture on the screen.
+	*/
+	max-height: 1100px;
+
+}
+
+.carousel-inner .item .a img{
+	/*width: 85%;
+	This value may be useful for fitting the whole index picture on screen.
+	*/
+	width: 100%;
+	max-height: 1100px;
+}
+
+.carousel-indicators{
+	bottom: 5%;
+}
+
+.carousel-control{
+	width: 4%;
+	background: none !important;
+}
+
+.carousel-caption h1{
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 0.4;
+}
+
+.carousel-caption p{
+	font-size: 25px;
+}
+
+#caption01{
+	top: 12%;
+	letter-spacing: 0.5em;
+}
+
+#caption02{
+	left: -55%;
+	bottom: 5%;
+}
+
+#caption03{
+	top: 10%;
+	left: -50%;
+}
+
+#caption04{
+	top: 12%;
+	left: -40%;
+}
+
+#caption05{
+	top: 12%;
+	left: -35%;
+}
+
+@media only screen and (max-width: 850px){
+	.carousel-inner{
+		height: 275px;
+	}
+
+	.carousel-caption h1,p{
+		display: none;
+	}
+
+	.carousel-control{
+		display: none;
+	}
+
+	.carousel-indicators{
+		bottom: 5px;
+	}
+
+	#caption01{
+		border-style: none;
+	}
+}

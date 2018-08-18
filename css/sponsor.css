@@ -1,0 +1,117 @@
+.header h1{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 40px;
+	line-height: 0.5;
+}
+
+.sub{
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.silvertxt{
+	color: 	#A8A8A8;
+	font-weight: 600;
+	display: inline;
+}
+
+.goldtxt{
+	color: 	#FFD700;
+	font-weight: 600;
+	display: inline;
+}
+
+.plattxt{
+	color: 	#C0C0C0;
+	font-weight: 600;
+	display: inline;
+}
+
+.top{
+	margin-bottom: 20px;
+}
+
+.discount{
+	border-radius: 50%;
+	width:60px;
+	height: 60px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	padding: 18px 5px;
+	float: left;
+	margin-right: 10px;
+}
+
+.discount-silver{
+	border-radius: 50%;
+	width:60px;
+	height: 60px;
+	background-color: #A8A8A8;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	padding: 18px 5px;
+	float: left;
+	margin-right: 10px;
+}
+
+.discount-gold{
+	border-radius: 50%;
+	width:60px;
+	height: 60px;
+	background-color: #FFD700;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	padding: 18px 5px;
+	float: left;
+	margin-right: 10px;
+}
+
+.discount-plat{
+	border-radius: 50%;
+	width:60px;
+	height: 60px;
+	background-color: #C0C0C0;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	padding: 18px 5px;
+	float: left;
+	margin-right: 10px;
+}
+
+.business{
+	margin-top: 12px;
+}
+
+.name{
+	font-size: 30px;
+	line-height: 0.9;
+}
+
+/*Navigation font for home, event, index */
+.navigation a{
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.info{
+	font-size: 12px;
+}
+
+.location{
+	font-size: 16px;
+}
+
+.sponsor{
+	margin-bottom: 30px;
+}
+
+#bogo{
+	font-size:17px;
+}

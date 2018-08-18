@@ -1,0 +1,142 @@
+.cn_header h1{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 40px;
+	line-height: 0.5;
+}
+
+/*Navigation font for home, event, index */
+.navigation a{
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.date{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.main_img{
+	height: 600px;
+	overflow: hidden;
+}
+
+.main_img img{
+	width: 100%;
+}
+
+.info{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.performances h1{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 40px;
+	line-height: 0.5;
+}
+
+.sub{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.performaces h1{
+	margin-top: 0px;
+}
+
+.skit_img img{
+	width: 100%;
+}
+
+.skit_info h1{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.skit_desc{
+	font-size: 16px;
+}
+
+.dance{
+	margin-bottom: 40px;
+}
+
+.dance_img img{
+	width: 100%;
+}
+
+.dance_info h1{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.dance_desc{
+	font-size: 16px;
+}
+
+
+@media only screen and (max-width: 850px){
+	.cn_header h1{
+		margin-top: 30px;
+		margin-bottom: 5px;
+		font-size: 30px;
+		line-height: 1;
+	}
+
+	.date{
+		font-size: 20px;
+	}
+
+	.main_img{
+		height: 265px;
+	}
+
+	.info{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.performances h1{
+		margin-top: 15px;
+	}
+
+	.skit img {
+		margin-bottom: 8px;
+	}
+
+	.skit_info h1{
+		font-weight: bold;
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.skit_desc{
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.dance{
+		margin-bottom: 30px
+	}
+
+	.dance img {
+		margin-bottom: 8px;
+	}
+
+	.dance_info h1{
+		font-weight: bold;
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.dance_desc{
+		font-size: 16px;
+		text-align: center;
+	}
+
+}

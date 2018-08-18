@@ -1,0 +1,40 @@
+.info{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.member_img img{
+	width: 100%;
+}
+
+.name h1{
+	font-weight: bold;
+	line-height: 0.8;
+}
+
+.position{
+	font-size: 20px;
+}
+
+.email{
+	font-size: 20px;
+}
+
+.question{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.answer{
+	font-size: 16px;
+}
+
+@media only screen and (max-width: 850px){
+	.info{
+		margin-top: 20px;
+	}
+	
+	.member_img img{
+		margin-bottom: 10px;
+	}
+}
