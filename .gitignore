@@ -1,0 +1,4 @@
+#Ignore all images, no need to back up in db
+
+*.jpg
+*.png
