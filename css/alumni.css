@@ -6,12 +6,20 @@ h1{
 
 .sub{
 	font-size: 16px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .select_year{
+	font-size: 17px; 
+	border: solid;
+	outline: none;
+	color: black;
+	padding: 5px;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0; /* Important for vertical align on mobile phones */
 	float: right;
-	margin-bottom: 15px;
+		margin-bottom: 15px;
 }
 
 .inv{
@@ -23,6 +31,8 @@ h1{
 }
 
 .alum_main img{
+	outline: solid;
+	outline-width: 50%;
 	width: 100%;
 }
 

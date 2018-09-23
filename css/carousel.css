@@ -14,12 +14,16 @@
 }
 
 .carousel-inner .item img{
+	padding-left: 14%;
+	padding-right: 14%;
+	background-color: black;
+	padding-bottom: 1%;
 	width: 100%;
 	/*
 	max-height: 925px;
 	This value may be useful for fitting the whole index picture on the screen.
 	*/
-	max-height: 1100px;
+	max-height: 630px;
 
 }
 
@@ -36,13 +40,14 @@
 }
 
 .carousel-control{
-	width: 4%;
+	width: 15%;
+	
 	background: none !important;
 }
 
 .carousel-caption h1{
 	font-weight: bold;
-	font-size: 60px;
+	font-size:50px;
 	line-height: 0.4;
 }
 
@@ -51,28 +56,28 @@
 }
 
 #caption01{
-	top: 12%;
-	letter-spacing: 0.5em;
+	top: 7%;
+	letter-spacing: 0.2em;
 }
 
 #caption02{
-	left: -55%;
+	left: -35%;
 	bottom: 5%;
 }
 
 #caption03{
-	top: 10%;
-	left: -50%;
+	top: 4%;
+	left: -35%;
 }
 
 #caption04{
 	top: 12%;
-	left: -40%;
+	left: -35%;
 }
 
 #caption05{
-	top: 12%;
-	left: -35%;
+	top: 1%;
+	left: -25%;
 }
 
 @media only screen and (max-width: 850px){
@@ -85,7 +90,7 @@
 	}
 
 	.carousel-control{
-		display: none;
+		
 	}
 
 	.carousel-indicators{

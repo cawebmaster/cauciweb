@@ -1,13 +1,15 @@
 .header h1{
 	text-align: center;
+	font-weight: bold;
+	padding-bottom: 2%;
+	
 }
 
 .main_img{
-	height: 700px;
-	overflow: hidden;
-	margin-top: 10px;
-	margin-bottom: 20px;
-}
+	height: 0px;
+	overflow: visible;
+	
+	}
 
 .main_img img{
 	width: 100%;
@@ -15,14 +17,31 @@
 
 .events{
 	margin-top: 20px;
-	margin-left: 42%;
-	margin-right: 42%;
+	margin-left: 32%;
+	margin-right: 32%;
 	margin-bottom: 30px;
-	padding: 15px;
+	padding: 10px;
 	text-align: center;
 	border-style: solid;
 }
 
+.split {
+  width: 50%;
+  
+  top: 0;
+  
+  }
+
+.right {
+	float: right;
+	padding-left: 3%;
+	}
+
+.left {
+	
+	float: left;
+	left: 0;	
+}
 .events a{
 	text-decoration: none;
 	color: black;
@@ -36,23 +55,4 @@
 .navigation a{
 	font-size: 14px;
 	font-weight: 500;
-}
-
-@media only screen and (max-width: 850px){
-	.img{
-		height: 250px;
-	}
-
-	.main_img{
-		height: 220px;
-	}
-
-	.info{
-		margin-top: 0px;
-	}
-
-	.events{
-		margin-left: 25%;
-		margin-right: 25%;
-	}
 }

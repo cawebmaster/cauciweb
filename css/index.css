@@ -22,8 +22,9 @@
 
 .events{
 	margin-top: 5px;
-	margin-left: 38%;
-	margin-right: 38%;
+	margin-left: 33%;
+	margin-right: 33%;
+	margin-bottom: 10px;
 	padding: 15px;
 	text-align: center;
 	border-style: solid;
@@ -36,7 +37,7 @@
 
 .split {
 	width: 50%;
-}
+	}
 
 .right {
 	float: right;
@@ -44,7 +45,6 @@
 }
 .left {
 	float: left;
-
 	left: 0;
 }
 
@@ -58,8 +58,9 @@
 
 iframe{
 	display: block;
-	margin: 0 auto;
-}
+	
+	margin-left: 180px;
+	}
 
 /*Navigation font for home, event, index */
 .navigation a{
