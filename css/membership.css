@@ -10,6 +10,16 @@
 	overflow: visible;
 	
 	}
+	
+	
+iframe{
+	display: block;
+	position: relative;
+	width: 50vw;
+	max-height: 315px;
+	max-width: 560px;
+}
+
 
 .main_img img{
 	width: 100%;
