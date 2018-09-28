@@ -36,19 +36,20 @@ iframe{
 }
 
 .split {
-  width: 50%;
-  
+  width: 44.5%;
   top: 0;
   
   }
 
 .right {
+	padding : auto;
 	float: right;
 	padding-left: 3%;
 	}
 
 .left {
-	
+	padding : auto;
+	margin-left: auto;
 	float: left;
 	left: 0;	
 }
