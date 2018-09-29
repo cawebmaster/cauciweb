@@ -67,3 +67,26 @@ iframe{
 	font-size: 14px;
 	font-weight: 500;
 }
+
+@media only screen and (max-width: 850px){
+	iframe{
+		display: block;
+		margin: 0 auto;
+		height: 45vw;
+		width: 70vw;
+	}
+
+.right {
+	position: relative;
+			padding-top: 50%;
+
+	}
+	.left {
+		postition: relative;
+	}
+	.split {
+	
+		width: 100%;
+		
+	}
+}

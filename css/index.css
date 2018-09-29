@@ -54,7 +54,8 @@
 .left {
 	float: left;
 	margin : auto;
-	padding-left: 2%;
+	
+	padding-left: 5%;
 	left: 0;
 }
 
