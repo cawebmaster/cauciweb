@@ -43,11 +43,6 @@
 	color: black;
 }
 
-/*Navigation font for home, event, index */
-.navigation a{
-	font-size: 14px;
-	font-weight: 500;
-}
 
 .index-intro h1{
 	text-align: center;

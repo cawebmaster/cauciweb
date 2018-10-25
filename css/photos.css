@@ -27,11 +27,7 @@
 	line-height: 0.5;
 }
 
-/*Navigation font for home, event, index */
-.navigation a{
-	font-size: 14px;
-	font-weight: 500;
-}
+
 .event_pic img{
 	width: 100%;
 	height: 350px;

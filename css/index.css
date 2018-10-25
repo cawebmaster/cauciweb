@@ -75,13 +75,6 @@ iframe{
 	max-width: 560px;
 	}
 
-/*Navigation font for home, event, index */
-.navigation a{
-	font-size: 14px;
-	font-weight: 500;
-}
-
-
 @media only screen and (max-width: 850px){
 	.about{
 		margin-left: 20%;

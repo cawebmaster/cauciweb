@@ -5,11 +5,6 @@
 	line-height: 0.5;
 }
 
-/*Navigation font for home, event, index */
-.navigation a{
-	font-size: 14px;
-	font-weight: 500;
-}
 .sub{
 	text-align: center;
 	font-size: 14px;
@@ -51,11 +46,6 @@
 	font-size: 25px;
 }
 
-/*Navigation font for home, event, index */
-.navigation a{
-	font-size: 14px;
-	font-weight: 500;
-}
 
 .overlay{
 		border-radius: 2.5%;

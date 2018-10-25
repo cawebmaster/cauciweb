@@ -53,12 +53,6 @@ h1{
 	line-height: 0.75;
 }
 
-/*Navigation font for home, event, index */
-.navigation a{
-	font-size: 14px;
-	font-weight: 500;
-}
-
 .position{
 	text-align: center;
 	font-size: 20px;

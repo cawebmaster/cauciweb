@@ -44,11 +44,6 @@ h1{
 	text-align: center;
 }
 
-/*Navigation font for home, event, index */
-.navigation a{
-	font-size: 14px;
-	font-weight: 500;
-}
 
 @media only screen and (max-width: 850px){
 	h1{
